@@ -25,7 +25,7 @@ namespace BogusSamples
 
             var result = addProductCommandHandler.Handle(product);
 
-            result.Sucess.Should().BeTrue();
+            result.Success.Should().BeTrue();
 
         }
 
@@ -44,7 +44,7 @@ namespace BogusSamples
 
             var result = addProductCommandHandler.Handle(product);
 
-            result.Sucess.Should().BeFalse();
+            result.Success.Should().BeFalse();
 
         }
     }

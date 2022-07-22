@@ -13,7 +13,7 @@ public class AddProductCommandHandler
     }
 
 
-    public (bool Sucess, string Message) Handle(Product product)
+    public (bool Success, string Message) Handle(Product product)
     {
         //some validations 
 

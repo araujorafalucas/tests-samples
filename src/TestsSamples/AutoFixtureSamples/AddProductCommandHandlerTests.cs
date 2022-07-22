@@ -25,7 +25,7 @@ namespace AutoFixtureSamples
 
             var result = addProductCommandHandler.Handle(product);
 
-            result.Sucess.Should().BeTrue();
+            result.Success.Should().BeTrue();
         }
 
 
@@ -40,7 +40,7 @@ namespace AutoFixtureSamples
 
             var result = addProductCommandHandler.Handle(product);
 
-            result.Sucess.Should().BeTrue();
+            result.Success.Should().BeTrue();
         }
     }
 }
